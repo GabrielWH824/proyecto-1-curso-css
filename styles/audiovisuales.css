@@ -1,0 +1,27 @@
+.deLado{
+    float: left;
+    width: auto;
+    /* position:static; */
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid goldenrod;
+    float: left;
+    width: 33vw;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.nombre{
+    padding: 10px;
+    text-align: center;
+}

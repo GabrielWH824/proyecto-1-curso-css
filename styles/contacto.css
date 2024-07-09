@@ -1,0 +1,36 @@
+.contenedor{
+    /* display: flex;
+    justify-content: center; */
+    background-color: rgb(94, 179, 94);
+    border-radius: 14px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(148, 124, 71);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(130, 194, 130);
+}

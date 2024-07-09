@@ -1,0 +1,64 @@
+body{
+    font-family: "Changa", sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, rgb(255, 123, 0),rgb(0, 201, 60));
+    padding-bottom: 180px;
+}
+
+header{
+    text-align: center;
+     
+}
+
+header h1{
+    font-size: 45px;
+    margin: 0;
+    padding: 15px;
+}
+
+.active{
+    background-color: rgb(255, 123, 0);
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79, 145, 79);
+}
+
+li{
+    font-size: 24px;
+    float: left;
+    padding: 0.2em;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: rgb(41, 102, 41);
+}
+
+h1{
+    background-color:goldenrod;
+    padding: 0.8em;
+    margin: 0;
+    color:rgb(41, 102, 41);
+
+}
+
+footer{
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size:larger;
+}
